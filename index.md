@@ -14,12 +14,15 @@ With my journey through the CS program coming to an end, I can reflect back on w
 
 As an exemplar of the skills developed, the following are projects to demonstrate skills and knowledge in three key areas:
 
-- [Software design and engineering](#project1)
-- [Algorithms and data structure](#project2)
-- [Databases](#project3)
+- [Software design and engineering]
+- [Algorithms and data structure]
+- [Databases]
 
-### Software design and engineering {#project1}
+### Software design and engineering
+[Software design and engineering]: #software-design-and-engineering
 
-### Algorithms and data structure {#project2}
+### Algorithms and data structure
+[Algorithms and data structure]: #algorithms-and-data-structure
 
-### Databases {#project3}
+### Databases
+[Databases]: #databases
