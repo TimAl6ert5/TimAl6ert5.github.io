@@ -69,9 +69,9 @@ As an exemplar of the skills developed, the following are projects to demonstrat
 #### Description
 The artifact is a C++ program that leverages OpenGL to render a 3D mesh and associated texture with appropriate lighting, camera and view controls.  This project is a critical exercise in understanding how computer graphics work with regard to both the mathematical modeling and the hardware interactions for the graphics rendering pipeline.  The original artifact was created in the CS-330 computer graphics course, approximately end of June 2020.
 
-- Original Work: https://github.com/TimAl6ert5/Felix/commit/e6baa6bc0211a9c047adc7479420a5f644414717
-- Enhancement: https://github.com/TimAl6ert5/Felix/tree/develop
-- Code Review: https://youtu.be/v16AYueD9G0
+- Original Work: [https://github.com/TimAl6ert5/Felix/tree/master](https://github.com/TimAl6ert5/Felix/tree/master)
+- Code Review: [https://youtu.be/v16AYueD9G0](https://youtu.be/v16AYueD9G0)
+- Enhancement: [https://github.com/TimAl6ert5/Felix/tree/develop](https://github.com/TimAl6ert5/Felix/tree/develop)
 
 #### Justification
 This artifact demonstrates critical skills in modern OpenGL computer graphics software design and development.  This article is included in order to demonstrate competency in understanding modern computer graphics.  Given the state of the original project and the planned improvements being implemented, this project is an example of developing and improving existing software by being able to research, design, and implement improvements to existing codebase.  This is a critical skill for a software developer to have.
@@ -83,15 +83,15 @@ The first important takeaway from this enhancement is the criticalness of ensuri
 
 The second challenge in making these changes was to make sure that changes were implemented in some controlled and orderly fashion.  To accomplish this, I started the ‘CHANGELOG.md’ file and broke down the tasks to a list that can be checked off as they are completed.  This list serves both as a way to keep track of what needs to be changed, but also what has been changed.  Ultimately, this codebase needs to be put under source control.
 
-The third, and biggest challenge comes from trying to encapsulate application behaviors while interacting with the freeGLUT library.  The challenge, as research indicates, comes from trying to pass class methods as callback functions for GLUT.  GLUT being written in C does not easily accept this.  For example, reference the function glutDisplayFunc (https://www.opengl.org/resources/libraries/glut/spec3/node46.html#SECTION00081000000000000000).  A possibility to work around this is to encapsulate the behavior as desired and create adapter functions to call the desired behaviors.  This modification may be beyond the scope of the current project enhancements timeline.
+The third, and biggest challenge comes from trying to encapsulate application behaviors while interacting with the freeGLUT library.  The challenge, as research indicates, comes from trying to pass class methods as callback functions for GLUT.  GLUT being written in C does not easily accept this.  For example, reference the function [glutDisplayFunc](https://www.opengl.org/resources/libraries/glut/spec3/node46.html#SECTION00081000000000000000).  A possibility to work around this is to encapsulate the behavior as desired and create adapter functions to call the desired behaviors.  This modification may be beyond the scope of the current project enhancements timeline.
 The result is the development of a Scene object that encapsulates rendering the subject, lighting and camera.
 
 
 ### Algorithms and data structure
 [Algorithms and data structure]: #algorithms-and-data-structure
 
-- Project Review: https://youtu.be/glkGPHE2GJo
-- Artifact Result: https://github.com/TimAl6ert5/Elim
+- Project Review: [https://youtu.be/glkGPHE2GJo](https://youtu.be/glkGPHE2GJo)
+- Artifact Result: [https://github.com/TimAl6ert5/Elim](https://github.com/TimAl6ert5/Elim)
 
 #### Description
 The artifact is a combination of studies from the CS-260 data structures and MAT-230 Discrete Mathematics courses.  Graph data structures are particularly interesting for the wide variety of applications and problems that can be solved using this type of model.  Throughout the CS program, graph data structures and algorithms were covered, but not implemented.  This project will be my opportunity to practice implementing these critical skills to better prepare me for any career moves in the field of Computer Science.  The goal of the project is to develop skills and understanding around the graph data structures by developing a library of tools for representing graphs in different ways and determining specific graph properties from these.
@@ -112,9 +112,9 @@ Third, the development of the algorithms to determine the properties for each of
 ### Databases
 [Databases]: #databases
 
-- Original Work: https://github.com/TimAl6ert5/Cephas/commit/bae360f45c5c23e86440fa33a7844aec035791c1
-- Enhancmenet:
-- Code Review: https://youtu.be/ks6WGLAyLHg
+- Original Work: [https://github.com/TimAl6ert5/Cephas/tree/master](https://github.com/TimAl6ert5/Cephas/tree/master)
+- Code Review: [https://youtu.be/ks6WGLAyLHg](https://youtu.be/ks6WGLAyLHg)
+- Enhancmenet: [https://github.com/TimAl6ert5/Cephas/tree/develop](https://github.com/TimAl6ert5/Cephas/tree/develop)
 
 
 #### Description
@@ -130,7 +130,7 @@ Furthermore, the enhancements to the service include a framework for testing tha
 #### Reflection
 The development of the project from the services standpoint was really a rehash of things I have worked on professionally for a few years while working on a digital advertising platform.  That system had a set of client services that followed similar patterns, but were developed using Java and spring boot.  I have also developed similar services for my current employer, however they are [GraphQL](https://spec.graphql.org/June2018/) services, not REST services.  GraphQL offers several enhancements over REST API’s that allow the client to make a single request to get data as specified, without having to make potentially several calls to compile all the data in the desired format.
 
-The most interesting, and surprisingly exciting, part of working on this project and the CS340 class was really getting to know more about Mongo and NoSQL databases.  I can see the potential benefit provided by the schemaless database.  Furthermore, the geoJson is, for lack of a better expression, really cool!  I’ve only skimmed through the source code a bit to try and get some understanding of how it is structured, but I’m very interested to read their library for handling geoJson data and performing the calculations for mapping regions and determine distances etc (looks like it is here https://github.com/mongodb/mongo/tree/master/src/mongo/db/geo).  From an application developer standpoint, this is a very powerful feature.
+The most interesting, and surprisingly exciting, part of working on this project and the CS340 class was really getting to know more about Mongo and NoSQL databases.  I can see the potential benefit provided by the schemaless database.  Furthermore, the geoJson is, for lack of a better expression, really cool!  I’ve only skimmed through the source code a bit to try and get some understanding of how it is structured, but I’m very interested to read their library for handling geoJson data and performing the calculations for mapping regions and determine distances etc (looks like it is [here](https://github.com/mongodb/mongo/tree/master/src/mongo/db/geo)).  From an application developer standpoint, this is a very powerful feature.
 
 The main challenge I faced was dealing with, what seems to be, the simplicity of the bottle framework.  Most of the services I have worked on in the past were Java servlet and Spring boot services that involved things such as dependency injection and aspect oriented programming.  There seem to be specific ways of doing things and available libraries to do them with, such as input validation and persistence.  One of the things that makes Python an appealing language is there are so many libraries available that allow people to get things done very quickly.  The Bottle framework is no exception to this, as it touts being “fast, simple and lightweight.”  This appears to mean that if I want to add the more heavyweight stuff, I have to write it myself.  I believe I have accomplished a sufficient method for performing input validation by implementing an request class and manually populating it from the user request payload.  This at least guards the information going into the database.  Going forward, I would implement this service using a different framework.
 
