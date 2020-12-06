@@ -136,5 +136,6 @@ The main challenge I faced was dealing with, what seems to be, the simplicity of
 
 
 ### Additional Work
+[Additional Work]: #additional-work
 
 The [Gallio](https://github.com/TimAl6ert5/Gallio) project is an implementation of a command line dice game LCR written in C++.  
