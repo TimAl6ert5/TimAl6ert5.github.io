@@ -3,29 +3,65 @@
 
 My name is Tim Alberts and I work in software development and technology.  Please refer to my [LinkedIn](https://www.linkedin.com/in/tim-alberts-87303430/) profile for more details.
 
-
 ## Education
 
-While my original interests started with electronics and hardware, my passion for writing software eventually won over.
+While my original interests started with electronics and hardware, my passion for writing software eventually won over.  Having some general engineering, math, physics, chemistry and computer science education from a community college following high school, plus an AAS degree in electronics from ITT, I was able to get myself into the work world and continued to build my skills and experience.  Following some life and career changes I made the decision to finish my BA degree in computer science.  This landed me at SNHU.  Now with my journey through the CS program coming to an end, I can reflect back on what was achieved.
 
-Having some general engineering and computer science education following high school, plus an AAS degree from ITT in electronics, I was able to get myself into the work world and continued to build my skills and experience.  Following some life and career changes I made the decision to finish my BA degree in computer science.  This landed me at SNHU.
+**Fundamentals**
 
-With my journey through the CS program coming to an end, I can reflect back on what was achieved.
+From the beginning, the CS program developed all of the fundamental skills needed to be successfull working in computer science and software development.  The program covered computer platform technologies from the hardware and software perspective including CPU architecture, memory, registers, addressing modes, busses, instruction sets and a variety of input/output devices.  Software topics include operating system modules, process management, memory and file system management.  Also included were basic network components and multi-user operating systems.  After having been a Linux fan since RedHat 5.2, the course on the Linux operating system still managed to expeand my knowledge of a few more commands and tools.
 
-- collaborating in a team environment (IT-315 UML, CS-310 git) ... working with other developers
-    - Functional structural behavioral
-- communicating to stakeholders (IT-315 UML)
-- data structures and algorithms (CS-260 algorithms, IT-365 operating systems)
-- software engineering and database (CS-340, DAD-220, DAT-220)
-- security
-    - Operating Systems Authentication/Authorization
-    - CS-340 server/defensive programming, A&A
+Additionally, the program established foundations in application development, covering expression evaluation, variables, operators, control/decision structures, looping, recursion, data types, functions, classes, exception handling, File I/O.  All of this over multiple courses and three major languages, Python, Java and C++.  Given my previous education and work experience, the majority of this material was not new.  Regardless, I took the opportunity to solidify these fundamental skills.
 
-As an exemplar of the skills developed, the following are projects to demonstrate skills and knowledge in three key areas:
+**Data**
+
+The CS program covered working with structured database environments (SQL) for data management, manipulation and analysis.  In addition, schemaless (NoSQL) database environments were used to develop client/server applications that utilized techniques in indexing to optimize operations and development of aggregate pipelines in MongoDB.  These skills further enhance my previous experience administering MySQL databases, developing applications backed by SQL data stores and working with Hadoop clusters utilizing Pig scripts.
+
+The CS program extended my knowledge of data management with utilizing key concepts in data mining techniques.  That is, a process of working through:
+
+1. Business task: Clarification of the business question behind the problem
+2. Data: Provision and processing of the required data
+3. Modeling: Analysis of the data
+4. Evaluation and validation during the analysis stage
+5. Application of data mining results and learning from the experience
+
+I honestly found myself very engaged in the data mining work throughout this course as the process and techniques used to look for insights into various data sets became a bit of an obsession.  The course worked through problems dealing with remarkably dirty data.
+
+*TODO insert Jupyter Notebook and explanations*
+
+**Operating Systems**
+
+The CS program coursework also develops in-depth knowledge of operating systems including process, memory, file and disk management.  Understanding the purpose of system and user processes, benefits of virtualization, difference between synchronous and asynchronous communication, tradeoffs of automatic and explicit buffering, difference between send by copy and send by reference between processes, fixed and variable size messaging, multi-threading models and resource sharing, paging and memory allocation, virtual memory, and networking (I'm sure I missed something).  This knowledge is a key component of software development as it helps a developer to take full advantage of the operating environment.  This was another course that I found very interesting when it came to implementing algorithms such as client/server socket communications and virtual memory manager.
+
+**Mathematics**
+
+The CS program extended my previous mathematics studies with coursework in Discrete Mathematics and Applied Linear Algebra.  Discrete mathematics is a critical component of computer science for covering topics such as sets, sequences, properties of Integers, logic, and counting techniques.  In addition, data structures and algorithms dealing with relations, digraphs, trees and topics in graph theory were covered.  Probably one of the most critical topics that can be covered for computer science is functions such as hashing functions and growth of functions (i.e. [Big-O notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-o-notation) which is expected knowledge in order to understand how algorithms will perform.
+Applied Linear Algebra establishes critical skills in solving systems of linear equations with row reduction algorithms and echelon forms, properties of matrices, matrix operations (in-particular related to computer graphics), determinants, vector spaces, Eigenvalues and Eigenvectors.
+
+**Algorithms and Applications**
+
+After having established all the fundamental skills and knowledge, the CS program moved into applying this knowledge with detailed study, including implementation of data structures and algorithms.  Imlemented algorithms included arrays and vectors, lists and search algorithms, stacks queues and sorting, hash functions and tables, and binary search trees (BST).
+
+**Object Orient Analysis/Design**
+
+On top of the skills developed in programming languages, algorithms, data structures and operating environments, the CS program develops software systems engineering principles combining object-oriented design principles and methods augmented by computer assisted engineering (CASE) technology.  The course utilizes object-oriented analysis and design (OOAD) and use case models to build an information system (IS), leveraging the Unified Modeling Language (UML).  The process covers analysing the functional, structural and behavioral models via an iterative and incremental flow.  This work establishes the skills necessary to design software systems.
+
+**Development Process**
+
+Aside from learning languages, data structures and algorithms, a detailed understanding of the entire software development life cycle (SDLC) and various methodologies, particularly focussed on Agile, was gained in this program.  This knowledge bridges the gap between a software developer and a professional.  The ability to manage a software project and communicate with stakeholders throughout the SDLC makes a developer employable.  The program covered in-depth use of source control tools and software configuration management with tools like git.  Plus the program established processes and skills needed for software testing and quality assurance, including the most fundamental understanding of the different mindset between being a software developer and being a software tester.
+
+**Application Development**
+
+With all of these skills established, the program moved to applying the skills by developing applications in computer graphics and visualization, client/server development plus, mobile architecture and programming.
+
+**Capstone**
+
+As an exemplar of the skills developed, the following are projects to demonstrate skills and knowledge in three key areas plus additional works of note.
 
 - [Software design and engineering]
 - [Algorithms and data structure]
 - [Databases]
+- [Additional Works]
 
 ### Software design and engineering
 [Software design and engineering]: #software-design-and-engineering
@@ -58,7 +94,7 @@ The result is the development of a Scene object that encapsulates rendering the 
 - Artifact Result: https://github.com/TimAl6ert5/Elim
 
 #### Description
-The artifact partly comes from the CS-260 data structures course.  Graph data structures are particularly interesting for the wide variety of applications and problems that can be solved using this type of model.  Unfortunately, the course never dealt with graph data structures and algorithms.  This project will be my opportunity to teach myself these critical skills to better prepare me for any career moves in the field of Computer Science.  The goal of the project is to develop skills and understanding around the graph data structures by developing a library of tools for representing graphs in different ways and determining specific graph properties from these.
+The artifact is a combination of studies from the CS-260 data structures and MAT-230 Discrete Mathematics courses.  Graph data structures are particularly interesting for the wide variety of applications and problems that can be solved using this type of model.  Throughout the CS program, graph data structures and algorithms were covered, but not implemented.  This project will be my opportunity to practice implementing these critical skills to better prepare me for any career moves in the field of Computer Science.  The goal of the project is to develop skills and understanding around the graph data structures by developing a library of tools for representing graphs in different ways and determining specific graph properties from these.
 
 #### Justification
 Graph data structures and algorithms are a fundamental concept to a variety of fields and applications in computer science.  For example, path finding and navigation.  In order to advance in the field of Computer Science, it is critical to develop strong understanding of these concepts.  The handling and study of graph data structures not only develops the skills specific to this type of model, but also develops skills necessary to develop algorithms that will scale well.  This involves being able to analyze the trade-offs between the time and space required for an algorithm.
@@ -98,3 +134,7 @@ The most interesting, and surprisingly exciting, part of working on this project
 
 The main challenge I faced was dealing with, what seems to be, the simplicity of the bottle framework.  Most of the services I have worked on in the past were Java servlet and Spring boot services that involved things such as dependency injection and aspect oriented programming.  There seem to be specific ways of doing things and available libraries to do them with, such as input validation and persistence.  One of the things that makes Python an appealing language is there are so many libraries available that allow people to get things done very quickly.  The Bottle framework is no exception to this, as it touts being “fast, simple and lightweight.”  This appears to mean that if I want to add the more heavyweight stuff, I have to write it myself.  I believe I have accomplished a sufficient method for performing input validation by implementing an request class and manually populating it from the user request payload.  This at least guards the information going into the database.  Going forward, I would implement this service using a different framework.
 
+
+### Additional Work
+
+The [Gallio](https://github.com/TimAl6ert5/Gallio) project is an implementation of a command line dice game LCR written in C++.  
