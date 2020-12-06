@@ -135,7 +135,7 @@ The most interesting, and surprisingly exciting, part of working on this project
 The main challenge I faced was dealing with, what seems to be, the simplicity of the bottle framework.  Most of the services I have worked on in the past were Java servlet and Spring boot services that involved things such as dependency injection and aspect oriented programming.  There seem to be specific ways of doing things and available libraries to do them with, such as input validation and persistence.  One of the things that makes Python an appealing language is there are so many libraries available that allow people to get things done very quickly.  The Bottle framework is no exception to this, as it touts being “fast, simple and lightweight.”  This appears to mean that if I want to add the more heavyweight stuff, I have to write it myself.  I believe I have accomplished a sufficient method for performing input validation by implementing an request class and manually populating it from the user request payload.  This at least guards the information going into the database.  Going forward, I would implement this service using a different framework.
 
 
-### Additional Work
-[Additional Work]: #additional-work
+### Additional Works
+[Additional Works]: #additional-works
 
 The [Gallio](https://github.com/TimAl6ert5/Gallio) project is an implementation of a command line dice game LCR written in C++.  
