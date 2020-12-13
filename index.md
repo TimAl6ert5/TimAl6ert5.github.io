@@ -110,7 +110,7 @@ The development of this artifact revealed several challenges to think about.  Th
 
 The second challenge comes from analyzing the trade-off of when and how to calculate graph properties.  While implementing each property for each of the models, it became apparent that the graph was being iterated over multiple times.  A better solution would be to iterate over the graph as it is being read to not only determine the validity of the input format, but calculate the graph properties up front.  However, as discussed above, this also presents a trade-off if the library is to be used in application development, what properties are needed and when.
 
-The third challenge involves leveraging the mathematical properties of graph theory to determine properties, compared to algorithmically determining them.  For example, for a graph to be ‘connected’, it must be a simple graph with an edge between every pair of vertices.  One way to determine this is to scan the graph and verify.  An alternative, mathematical property of the graph is to verify it is simple and leverage the property that a connected graph would have a number of edges equal to number of combinations of edges or **|E| = nC2**
+The third challenge involves leveraging the mathematical properties of graph theory to determine properties, compared to algorithmically determining them.  For example, for a graph to be ‘connected’, it must be a simple graph with an edge between every pair of vertices.  One way to determine this is to scan the graph and verify.  An alternative, mathematical property of the graph is to verify it is simple and leverage the property that a connected graph would have a number of edges equal to number of combinations of edges or |E| = nC2
 
 
 ### Databases
