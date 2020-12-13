@@ -1,4 +1,3 @@
-
 # About Me
 
 My name is Tim Alberts and I work in software development and technology.  Please refer to my [LinkedIn](https://www.linkedin.com/in/tim-alberts-87303430/) profile for more details.
@@ -9,9 +8,7 @@ While my original interests started with electronics and hardware, my passion fo
 
 **Fundamentals**
 
-From the beginning, the CS program developed all of the fundamental skills needed to be successfull working in computer science and software development.  The program covered computer platform technologies from the hardware and software perspective including CPU architecture, memory, registers, addressing modes, busses, instruction sets and a variety of input/output devices.  Software topics include operating system modules, process management, memory and file system management.  Also included were basic network components and multi-user operating systems.  After having been a Linux fan since RedHat 5.2, the course on the Linux operating system still managed to expeand my knowledge of a few more commands and tools.
-
-Additionally, the program established foundations in application development, covering expression evaluation, variables, operators, control/decision structures, looping, recursion, data types, functions, classes, exception handling, File I/O.  All of this over multiple courses and three major languages, Python, Java and C++.  Given my previous education and work experience, the majority of this material was not new.  Regardless, I took the opportunity to solidify these fundamental skills.
+From the beginning, the CS program developed all of the fundamental skills needed to be successfull working in computer science and software development.  The program covered computer platform technologies from the hardware and software perspective including CPU architecture, memory, registers, addressing modes, busses, instruction sets and a variety of input/output devices.  Software topics include operating system modules, process management, memory and file system management.  Also included were basic network components and multi-user operating systems.  After having been a Linux fan since RedHat 5.2, the course on the Linux operating system still managed to expeand my knowledge of a few more commands and tools.  Additionally, the program established foundations in application development, covering expression evaluation, variables, operators, control/decision structures, looping, recursion, data types, functions, classes, exception handling, File I/O.  All of this over multiple courses and three major languages, Python, Java and C++.  Given my previous education and work experience, the majority of this material was not new.  Regardless, I took the opportunity to solidify these fundamental skills.
 
 **Data**
 
@@ -25,18 +22,20 @@ The CS program extended my knowledge of data management with utilizing key conce
 4. Evaluation and validation during the analysis stage
 5. Application of data mining results and learning from the experience
 
-I honestly found myself very engaged in the data mining work throughout this course as the process and techniques used to look for insights into various data sets became a bit of an obsession.  The course worked through problems dealing with remarkably dirty data.
-
-*TODO insert Jupyter Notebook and explanations*
+I honestly found myself very engaged in the data mining work throughout this course as the process and techniques used to look for insights into various data sets became a bit of an obsession.  The course worked through problems dealing with remarkably dirty data that needed to be cleaned and enhanced.
 
 **Operating Systems**
 
-The CS program coursework also develops in-depth knowledge of operating systems including process, memory, file and disk management.  Understanding the purpose of system and user processes, benefits of virtualization, difference between synchronous and asynchronous communication, tradeoffs of automatic and explicit buffering, difference between send by copy and send by reference between processes, fixed and variable size messaging, multi-threading models and resource sharing, paging and memory allocation, virtual memory, and networking (I'm sure I missed something).  This knowledge is a key component of software development as it helps a developer to take full advantage of the operating environment.  This was another course that I found very interesting when it came to implementing algorithms such as client/server socket communications and virtual memory manager.
+The CS program coursework also develops in-depth knowledge of operating systems including process, memory, file and disk management.  Understanding the purpose of system and user processes, benefits of virtualization, difference between synchronous and asynchronous communication, tradeoffs of automatic and explicit buffering, difference between send by copy and send by reference between processes, fixed and variable size messaging, multi-threading models and resource sharing, paging and memory allocation, virtual memory, and networking (I'm sure I missed something).  This knowledge is a key component of software development as it helps a developer to take full advantage of the operating environment.  This was another course that I found very interesting when it came to implementing algorithms such as client/server socket communications and virtual memory manager.  This work combined well with my previous studies of Reliable Distributed Algorithms I completed on [edX](https://www.edx.org/).
+
+**Reliable Distributed Algorithms** Certificate of Achievement
+
+- **Part 1** [https://courses.edx.org/certificates/684ca539583e4866b102329a538cc886](https://courses.edx.org/certificates/684ca539583e4866b102329a538cc886)
+- **Part 2** [https://courses.edx.org/certificates/0095edf50b9e4cc29b785a70dfcf6460](https://courses.edx.org/certificates/0095edf50b9e4cc29b785a70dfcf6460)
 
 **Mathematics**
 
-The CS program extended my previous mathematics studies with coursework in Discrete Mathematics and Applied Linear Algebra.  Discrete mathematics is a critical component of computer science for covering topics such as sets, sequences, properties of Integers, logic, and counting techniques.  In addition, data structures and algorithms dealing with relations, digraphs, trees and topics in graph theory were covered.  Probably one of the most critical topics that can be covered for computer science is functions such as hashing functions and growth of functions (i.e. [Big-O notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-o-notation) which is expected knowledge in order to understand how algorithms will perform.
-Applied Linear Algebra establishes critical skills in solving systems of linear equations with row reduction algorithms and echelon forms, properties of matrices, matrix operations (in-particular related to computer graphics), determinants, vector spaces, Eigenvalues and Eigenvectors.
+The CS program extended my previous mathematics studies with coursework in Discrete Mathematics and Applied Linear Algebra.  Discrete mathematics is a critical component of computer science for covering topics such as sets, sequences, properties of Integers, logic, counting techniques and proofs.  In addition, data structures and algorithms dealing with relations, digraphs, trees and topics in graph theory were covered.  Probably one of the most critical topics that can be covered for computer science is functions such as hashing functions and growth of functions (i.e. [Big-O notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-o-notation) which is expected knowledge in order to understand how algorithms will perform.  Applied Linear Algebra establishes critical skills in solving systems of linear equations with row reduction algorithms and echelon forms, properties of matrices, matrix operations (in-particular related to computer graphics), determinants, vector spaces, Eigenvalues and Eigenvectors.
 
 **Algorithms and Applications**
 
@@ -44,24 +43,24 @@ After having established all the fundamental skills and knowledge, the CS progra
 
 **Object Orient Analysis/Design**
 
-On top of the skills developed in programming languages, algorithms, data structures and operating environments, the CS program develops software systems engineering principles combining object-oriented design principles and methods augmented by computer assisted engineering (CASE) technology.  The course utilizes object-oriented analysis and design (OOAD) and use case models to build an information system (IS), leveraging the Unified Modeling Language (UML).  The process covers analysing the functional, structural and behavioral models via an iterative and incremental flow.  This work establishes the skills necessary to design software systems.
+On top of the skills developed in programming languages, algorithms, data structures and operating environments, the CS program develops software systems engineering principles combining object-oriented design principles and methods augmented by computer assisted engineering (CASE) technology.  The course utilized object-oriented analysis and design (OOAD) and use case models to build an information system (IS), leveraging the Unified Modeling Language (UML).  The process covered analysing the functional, structural and behavioral models via an iterative and incremental flow.  This work establishes the skills necessary to design software systems.
 
-**Development Process**
+**Development Process and Collaboration**
 
 Aside from learning languages, data structures and algorithms, a detailed understanding of the entire software development life cycle (SDLC) and various methodologies, particularly focussed on Agile, was gained in this program.  This knowledge bridges the gap between a software developer and a professional.  The ability to manage a software project and communicate with stakeholders throughout the SDLC makes a developer employable.  The program covered in-depth use of source control tools and software configuration management with tools like git.  Plus the program established processes and skills needed for software testing and quality assurance, including the most fundamental understanding of the different mindset between being a software developer and being a software tester.
 
-**Application Development**
+These studies helped enhance my professional experience having worked on projects to certify flight software systems to RTCA/DO-178B.  The specific project incorporated both hardware and software system development using a [V-Model](https://www.tutorialspoint.com/sdlc/sdlc_v_model.htm) methodology.  Similarly with my more recent experience working at internet startup companies using Agile methodologies and/or [RAD](https://www.tutorialspoint.com/sdlc/sdlc_rad_model.htm) Model.
 
-With all of these skills established, the program moved to applying the skills by developing applications in computer graphics and visualization, client/server development plus, mobile architecture and programming.
+**Application Development and Capstone**
 
-**Capstone**
-
-As an exemplar of the skills developed, the following are projects to demonstrate skills and knowledge in three key areas plus additional works of note.
+With all of these skills established, the CS program moved to practical application by developing software solutions in computer graphics and visualization, client/server development plus, mobile architecture and programming.  As an exemplar of the skills developed, the following are projects to demonstrate skills and knowledge in three key areas plus additional works of note.
 
 - [Software design and engineering]
 - [Algorithms and data structure]
 - [Databases]
 - [Additional Works]
+
+In summary, there are specific aspects of computer science that I am drawn too.  First, being the breadth of reach that computer science has on all the fields of study.  Computer Science knowledge can be used to solve problems in nearly every field of work; Engineering, Medical, Business, Finance, Entertainement.  Computers are everywhere and theres lots of work to go around.  Second, developing software involves some creativity and imagination.  Combining a bunch of 0's and 1's in just the write way, in order to make whatever you can think has a bit of marvel.  Third, regardless of the field of work, there is a broad range of computer skills and knowledge needed to be successful.  This is where both the challenge and reward come together.  A developer must be able to break down a problem into a design that can be implemented, and be able to interpret how others have solved problems to understand the impact of changing a system.  A developer must able to understand the trade-offs of time and space complexity when developing algorithms so that the solution can scale properly and provide a good user experience.  A developer must be able to collaborate with stakeholders in order to establish the solution meets all requirements.  Of most importance, a developer must be able to assess the risks and vulnerabilities of a system in order to ensure the safety and security of the system.  Finally, a developer must be able to demonstrate the validity of their solution.  The combination of my education and professional experience demonstrate my understanding of these key aspects.
 
 ### Software design and engineering
 [Software design and engineering]: #software-design-and-engineering
